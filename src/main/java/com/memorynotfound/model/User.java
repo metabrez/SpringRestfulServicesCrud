@@ -10,6 +10,7 @@ public class User implements Serializable {
     public User() {
     	System.out.println("branch");
     	System.out.println("branch1");
+    	System.out.println("haahaha");
     }
 
     public User(int id, String username) {
