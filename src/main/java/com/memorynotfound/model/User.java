@@ -8,6 +8,7 @@ public class User implements Serializable {
     private String username;
 
     public User() {
+    	System.out.println("Hello");
     }
 
     public User(int id, String username) {
