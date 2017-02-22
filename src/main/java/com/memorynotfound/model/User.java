@@ -8,7 +8,12 @@ public class User implements Serializable {
     private String username;
 
     public User() {
+<<<<<<< HEAD
     	System.out.println("Hello");
+=======
+    	System.out.println("branch");
+    	System.out.println("branch1");
+>>>>>>> testingBranch
     }
 
     public User(int id, String username) {
@@ -39,4 +44,5 @@ public class User implements Serializable {
                 ", username='" + username + '\'' +
                 '}';
     }
+    
 }
